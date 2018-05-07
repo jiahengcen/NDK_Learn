@@ -151,6 +151,10 @@
   <ItemGroup>
     <ClCompile Include="calloc_test.cpp" />
     <ClCompile Include="char_test.cpp" />
+    <ClCompile Include="constInC.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="constInCpp.cpp" />
     <ClCompile Include="malloc_test.cpp" />
     <ClCompile Include="NDK_Learn.cpp" />
     <ClCompile Include="PointerTest.cpp" />

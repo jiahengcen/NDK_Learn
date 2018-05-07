@@ -47,5 +47,11 @@
     <ClCompile Include="char_test.cpp">
       <Filter>源文件\code</Filter>
     </ClCompile>
+    <ClCompile Include="constInC.c">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+    <ClCompile Include="constInCpp.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
