@@ -53,5 +53,14 @@
     <ClCompile Include="constInCpp.cpp">
       <Filter>源文件\code</Filter>
     </ClCompile>
+    <ClCompile Include="structInC.c">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+    <ClCompile Include="structInCpp.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+    <ClCompile Include="typedef_test.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
