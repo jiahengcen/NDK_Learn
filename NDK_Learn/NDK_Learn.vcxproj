@@ -150,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="calloc_test.cpp" />
+    <ClCompile Include="malloc_test.cpp" />
     <ClCompile Include="NDK_Learn.cpp" />
     <ClCompile Include="PointerTest.cpp" />
     <ClCompile Include="stdafx.cpp">

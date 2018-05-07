@@ -41,5 +41,8 @@
     <ClCompile Include="calloc_test.cpp">
       <Filter>源文件\code</Filter>
     </ClCompile>
+    <ClCompile Include="malloc_test.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
