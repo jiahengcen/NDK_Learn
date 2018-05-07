@@ -6,27 +6,27 @@
 //OS：WIN10
 //VS :VS2015
 /*******************test calloc**********************/
-int main()
-{
-	int * tempInt = (int *)calloc(10, sizeof(int));
-	int i = 0;
-	int *tt = tempInt;
-	for (i; i < 10; i++) 
-	{
-		
-		*tt = i;
-		tt++;
-	}
-	i = 0;
-	tt = tempInt;
-	for (i; i < 10; i++)
-	{
-		printf("i is %d ,address is %#x\n", *tempInt,tempInt);
-		tempInt++;
-	}
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	int * tempInt = (int *)calloc(10, sizeof(int));
+//	int i = 0;
+//	int *tt = tempInt;
+//	for (i; i < 10; i++) 
+//	{
+//		
+//		*tt = i;
+//		tt++;
+//	}
+//	i = 0;
+//	tt = tempInt;
+//	for (i; i < 10; i++)
+//	{
+//		printf("i is %d ,address is %#x\n", *tempInt,tempInt);
+//		tempInt++;
+//	}
+//	system("pause");
+//	return 0;
+//}
 /**result**/
 //分配的内存空间是连续的
 /*
