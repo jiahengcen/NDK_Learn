@@ -1,2 +1,0 @@
-/*this is code*/
-printf("this is code in code.txt\n");
