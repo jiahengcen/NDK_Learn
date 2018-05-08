@@ -58,23 +58,23 @@
 
 /*********************#ifdef*********************/
 //选择性编译，主要用来做平台兼容
-
-#define X86_CPU
-#ifndef ARM_CPU
-#define ARM_CPU
-#endif // !ARM_CPU
-#ifdef X86_CPU
-#undef X86_CPU
-#endif // X86_CPU
-int main() 
-{
-#ifdef ARM_CPU
-	printf("this is arm cpu\n");
-#endif 
-#ifdef X86_CPU
-	printf("this is x86 cpu\n");
-#endif // X86_CPU
-	system("pause");
-
-}
-
+//
+//#define X86_CPU
+//#ifndef ARM_CPU
+//#define ARM_CPU
+//#endif // !ARM_CPU
+//#ifdef X86_CPU
+//#undef X86_CPU
+//#endif // X86_CPU
+//int main() 
+//{
+//#ifdef ARM_CPU
+//	printf("this is arm cpu\n");
+//#endif 
+//#ifdef X86_CPU
+//	printf("this is x86 cpu\n");
+//#endif // X86_CPU
+//	system("pause");
+//
+//}
+//
