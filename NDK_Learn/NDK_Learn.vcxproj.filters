@@ -19,6 +19,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="code.txt">
+      <Filter>头文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -63,6 +66,9 @@
       <Filter>源文件\code</Filter>
     </ClCompile>
     <ClCompile Include="file_test.cpp">
+      <Filter>源文件\code</Filter>
+    </ClCompile>
+    <ClCompile Include="define_test.cpp">
       <Filter>源文件\code</Filter>
     </ClCompile>
   </ItemGroup>
