@@ -5,3 +5,7 @@
 *.opendb
 /Debug
 /NDK_Learn/Debug
+/JNI/C/JNI_Learn/Debug
+/JNI/C/JNI_Learn/JNI_Learn/Debug
+/JNI/C/JNI_Learn/JNI_Learn/x64/Debug
+/JNI/C/JNI_Learn/x64/Debug
